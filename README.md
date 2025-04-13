@@ -12,47 +12,9 @@ Makine öğrenmesi modelleri (örneğin Logistic Regression, Random Forest) kull
 
 Kullanıcıdan bilgi alan ve tahmin sonucunu gösteren basit bir web arayüzü geliştirildi (Streamlit ile)
 
-📁 Proje Yapısı
-bash
-Kopyala
-Düzenle
-otel-tahmin-projesi/
-│
-├── data/
-│   └── otel_verisi.csv        # Sanal olarak oluşturulmuş örnek veri seti
-│
-├── notebook/
-│   └── otel_tahmin_modeli.ipynb  # Jupyter Notebook içinde tüm analiz ve model eğitimi
-│
-├── app/
-│   └── app.py                 # Streamlit ile geliştirilen web arayüzü
-│
-├── requirements.txt           # Gerekli kütüphaneler
-└── README.md                  # Proje açıklamaları (bu dosya)
-🧪 Kullanılan Teknolojiler
-Python 3.x
-
-Pandas & NumPy
-
-Scikit-learn
-
-Matplotlib & Seaborn
-
-Streamlit (web arayüzü için)
-
 🔍 Veri Kümesi
 Bu projede kullanılan veri seti, gerçek kullanıcı verisi değil; benzetim (simülasyon) amaçlı rastgele oluşturulmuş sanal verilerden oluşmaktadır. Bu sayede kişisel veri içermeden tahmin modelleri geliştirildi.
 
-Örnek Değişkenler
-yas: Müşterinin yaşı
-
-gun_sayisi: Otelde kalacağı tahmini gün sayısı
-
-ulke: Müşterinin geldiği ülke
-
-odeme_sekli: Kredi kartı, nakit vb.
-
-rezervasyon_iptal_edildi_mi: (Hedef değişken) Rezervasyonun iptal edilip edilmediği
 
 🤖 Modelleme Süreci
 Notebook dosyasında aşağıdaki adımlar gerçekleştirildi:
